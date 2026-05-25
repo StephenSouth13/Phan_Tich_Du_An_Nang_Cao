@@ -38,16 +38,20 @@ export default function IntegratedLabDashboard() {
   useEffect(() => {
     const fetchAllData = async () => {
       try {
-        const [kpiRes, bivRes, ageRes, statRes, uniRes, wKpiRes, wBivRes, wRedRes, wWhiteRes] = await Promise.all([
-          fetch("http://127.0.0.1:8000/api/kpis"),
-          fetch("http://127.0.0.1:8000/api/chart/bivariate"),
-          fetch("http://127.0.0.1:8000/api/chart/age-distribution"),
-          fetch("http://127.0.0.1:8000/api/statistics"),
-          fetch("http://127.0.0.1:8000/api/chart/univariate?feature=Glucose"),
-          fetch("http://127.0.0.1:8000/api/wine/kpis"),
-          fetch("http://127.0.0.1:8000/api/wine/chart/bivariate"),
-          fetch("http://127.0.0.1:8000/api/wine/statistics/red"),
-          fetch("http://127.0.0.1:8000/api/wine/statistics/white")
+        // Gọi đến các file JSON tĩnh thay vì API Local
+        const [
+          kpiRes, bivRes, ageRes, statRes, uniRes, 
+          wKpiRes, wBivRes, wRedRes, wWhiteRes
+        ] = await Promise.all([
+          fetch("/data/diabetes_kpis.json"),
+          fetch("/data/diabetes_bivariate.json"),
+          fetch("/data/diabetes_age_dist.json"),
+          fetch("/data/diabetes_stats.json"),
+          fetch("/data/diabetes_univariate_glucose.json"),
+          fetch("/data/wine_kpis.json"),
+          fetch("/data/wine_bivariate.json"),
+          fetch("/data/wine_stats_red.json"),
+          fetch("/data/wine_stats_white.json")
         ]);
 
         setKpis(await kpiRes.json());
@@ -61,14 +65,13 @@ export default function IntegratedLabDashboard() {
         setRedWineStats(await wRedRes.json());
         setWhiteWineStats(await wWhiteRes.json());
       } catch (error) {
-        console.error("Lỗi đồng bộ dữ liệu tích hợp Lab 1:", error);
+        console.error("Lỗi tải dữ liệu tĩnh (Kiểm tra lại folder /public/data/):", error);
       } finally {
         setLoading(false);
       }
     };
     fetchAllData();
   }, []);
-
   if (loading || !kpis || !stats || !wineKpis || !redWineStats || !whiteWineStats) {
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-slate-950 text-emerald-400 font-mono text-lg tracking-wider">

@@ -1,0 +1,112 @@
+{
+    "fixed acidity": {
+        "mean": 8.311,
+        "median": 7.9,
+        "mode": 7.2,
+        "variance": 3.015,
+        "std_dev": 1.736,
+        "min": 4.6,
+        "max": 15.9,
+        "iqr": 2.1
+    },
+    "volatile acidity": {
+        "mean": 0.529,
+        "median": 0.52,
+        "mode": 0.5,
+        "variance": 0.033,
+        "std_dev": 0.183,
+        "min": 0.12,
+        "max": 1.58,
+        "iqr": 0.25
+    },
+    "citric acid": {
+        "mean": 0.272,
+        "median": 0.26,
+        "mode": 0.0,
+        "variance": 0.038,
+        "std_dev": 0.195,
+        "min": 0.0,
+        "max": 1.0,
+        "iqr": 0.34
+    },
+    "residual sugar": {
+        "mean": 2.523,
+        "median": 2.2,
+        "mode": 2.0,
+        "variance": 1.827,
+        "std_dev": 1.352,
+        "min": 0.9,
+        "max": 15.5,
+        "iqr": 0.7
+    },
+    "chlorides": {
+        "mean": 0.088,
+        "median": 0.079,
+        "mode": 0.08,
+        "variance": 0.002,
+        "std_dev": 0.049,
+        "min": 0.012,
+        "max": 0.611,
+        "iqr": 0.021
+    },
+    "free sulfur dioxide": {
+        "mean": 15.893,
+        "median": 14.0,
+        "mode": 6.0,
+        "variance": 109.065,
+        "std_dev": 10.443,
+        "min": 1.0,
+        "max": 72.0,
+        "iqr": 14.0
+    },
+    "total sulfur dioxide": {
+        "mean": 46.826,
+        "median": 38.0,
+        "mode": 28.0,
+        "variance": 1115.336,
+        "std_dev": 33.397,
+        "min": 6.0,
+        "max": 289.0,
+        "iqr": 41.0
+    },
+    "density": {
+        "mean": 0.997,
+        "median": 0.997,
+        "mode": 0.997,
+        "variance": 0.0,
+        "std_dev": 0.002,
+        "min": 0.99,
+        "max": 1.004,
+        "iqr": 0.002
+    },
+    "pH": {
+        "mean": 3.31,
+        "median": 3.31,
+        "mode": 3.3,
+        "variance": 0.024,
+        "std_dev": 0.155,
+        "min": 2.74,
+        "max": 4.01,
+        "iqr": 0.19
+    },
+    "sulphates": {
+        "mean": 0.659,
+        "median": 0.62,
+        "mode": 0.54,
+        "variance": 0.029,
+        "std_dev": 0.171,
+        "min": 0.33,
+        "max": 2.0,
+        "iqr": 0.18
+    },
+    "alcohol": {
+        "mean": 10.432,
+        "median": 10.2,
+        "mode": 9.5,
+        "variance": 1.17,
+        "std_dev": 1.082,
+        "min": 8.4,
+        "max": 14.9,
+        "iqr": 1.6
+    }
+}

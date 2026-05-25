@@ -1,0 +1,10 @@
+{
+    "total_patients": 768,
+    "diabetic_cases": 268,
+    "healthy_cases": 500,
+    "diabetes_rate": 34.9,
+    "avg_glucose": 121.66,
+    "avg_bmi": 32.46,
+    "dataset_shape": "768 dòng x 9 cột",
+    "missing_count": 0
+}

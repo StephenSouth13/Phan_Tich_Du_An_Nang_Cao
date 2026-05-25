@@ -43,11 +43,12 @@ export default function WineDashboard() {
   useEffect(() => {
     const fetchWineData = async () => {
       try {
+        // Thay thế các đường dẫn API cũ bằng đường dẫn đến file JSON tĩnh
         const [kpiRes, bivRes, redStatRes, whiteStatRes] = await Promise.all([
-          fetch("http://127.0.0.1:8000/api/wine/kpis"),
-          fetch("http://127.0.0.1:8000/api/wine/chart/bivariate"),
-          fetch("http://127.0.0.1:8000/api/wine/statistics/red"),
-          fetch("http://127.0.0.1:8000/api/wine/statistics/white")
+          fetch("/data/wine_kpis.json"),
+          fetch("/data/wine_bivariate.json"),
+          fetch("/data/wine_stats_red.json"),
+          fetch("/data/wine_stats_white.json")
         ]);
 
         setKpis(await kpiRes.json());
@@ -55,7 +56,7 @@ export default function WineDashboard() {
         setRedStats(await redStatRes.json());
         setWhiteStats(await whiteStatRes.json());
       } catch (error) {
-        console.error("Lỗi kết nối API Wine Backend:", error);
+        console.error("Lỗi đồng bộ dữ liệu tĩnh Wine:", error);
       } finally {
         setLoading(false);
       }

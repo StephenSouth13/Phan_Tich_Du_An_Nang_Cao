@@ -1,0 +1,24 @@
+[
+    {
+        "Outcome": 0,
+        "Pregnancies": 3.298,
+        "Glucose": 110.682,
+        "BloodPressure": 70.92,
+        "SkinThickness": 27.726,
+        "Insulin": 127.792,
+        "BMI": 30.8856,
+        "DiabetesPedigreeFunction": 0.429734,
+        "Age": 31.19
+    },
+    {
+        "Outcome": 1,
+        "Pregnancies": 4.865671641791045,
+        "Glucose": 142.13059701492537,
+        "BloodPressure": 75.1231343283582,
+        "SkinThickness": 31.686567164179106,
+        "Insulin": 164.70149253731344,
+        "BMI": 35.383582089552235,
+        "DiabetesPedigreeFunction": 0.5505,
+        "Age": 37.06716417910448
+    }
+]

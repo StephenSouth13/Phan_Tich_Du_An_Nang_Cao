@@ -1,0 +1,98 @@
+{
+    "Pregnancies": {
+        "mean": 3.85,
+        "median": 3.0,
+        "mode": 1.0,
+        "variance": 11.34,
+        "std_dev": 3.37,
+        "min": 0.0,
+        "max": 17.0,
+        "q1": 1.0,
+        "q3": 6.0,
+        "iqr": 5.0
+    },
+    "Glucose": {
+        "mean": 121.66,
+        "median": 117.0,
+        "mode": 99.0,
+        "variance": 925.28,
+        "std_dev": 30.42,
+        "min": 44.0,
+        "max": 199.0,
+        "q1": 99.75,
+        "q3": 140.25,
+        "iqr": 40.5
+    },
+    "BloodPressure": {
+        "mean": 72.39,
+        "median": 72.0,
+        "mode": 72.0,
+        "variance": 146.14,
+        "std_dev": 12.09,
+        "min": 24.0,
+        "max": 122.0,
+        "q1": 64.0,
+        "q3": 80.0,
+        "iqr": 16.0
+    },
+    "SkinThickness": {
+        "mean": 29.11,
+        "median": 29.0,
+        "mode": 29.0,
+        "variance": 77.18,
+        "std_dev": 8.79,
+        "min": 7.0,
+        "max": 99.0,
+        "q1": 25.0,
+        "q3": 32.0,
+        "iqr": 7.0
+    },
+    "Insulin": {
+        "mean": 140.67,
+        "median": 125.0,
+        "mode": 125.0,
+        "variance": 7452.32,
+        "std_dev": 86.33,
+        "min": 14.0,
+        "max": 846.0,
+        "q1": 121.5,
+        "q3": 127.25,
+        "iqr": 5.75
+    },
+    "BMI": {
+        "mean": 32.46,
+        "median": 32.3,
+        "mode": 32.3,
+        "variance": 47.21,
+        "std_dev": 6.87,
+        "min": 18.2,
+        "max": 67.1,
+        "q1": 27.5,
+        "q3": 36.6,
+        "iqr": 9.1
+    },
+    "DiabetesPedigreeFunction": {
+        "mean": 0.47,
+        "median": 0.37,
+        "mode": 0.25,
+        "variance": 0.11,
+        "std_dev": 0.33,
+        "min": 0.08,
+        "max": 2.42,
+        "q1": 0.24,
+        "q3": 0.63,
+        "iqr": 0.38
+    },
+    "Age": {
+        "mean": 33.24,
+        "median": 29.0,
+        "mode": 22.0,
+        "variance": 138.12,
+        "std_dev": 11.75,
+        "min": 21.0,
+        "max": 81.0,
+        "q1": 24.0,
+        "q3": 41.0,
+        "iqr": 17.0
+    }
+}
