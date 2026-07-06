@@ -1,0 +1,6 @@
+﻿Dataset,Model,Accuracy,Precision,Recall,F1-score,ROC-AUC,Best Params
+Titanic,Decision Tree,0.7933,0.8636,0.5507,0.6726,0.8314,"{'clf__criterion': 'entropy', 'clf__max_depth': 4}"
+Titanic,Random Forest,0.8045,0.7931,0.6667,0.7244,0.8445,"{'clf__max_depth': 8, 'clf__n_estimators': 50}"
+Diabetes,Decision Tree,0.6948,0.6667,0.2593,0.3733,0.7881,"{'clf__criterion': 'gini', 'clf__max_depth': 3}"
+Diabetes,Random Forest,0.7662,0.6957,0.5926,0.64,0.8202,"{'clf__max_depth': 8, 'clf__n_estimators': 50}"
+Diabetes,SVM,0.7532,0.66,0.6111,0.6346,0.7924,"{'clf__C': 1, 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
