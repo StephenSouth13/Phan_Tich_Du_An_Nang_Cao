@@ -1,0 +1,5 @@
+Cluster,SegmentName,Customers,Recency,Frequency,Monetary,Quantity,AvgBasket
+0,Trung thành tiềm năng,244,3.99,2.36,773.21,456.54,26.8
+1,VIP / Giá trị cao,400,50.58,8.64,5961.13,3317.32,519.96
+2,Ngủ quên / cần kích hoạt lại,1064,142.0,2.29,939.78,567.73,45.53
+3,Mới hoặc giá trị thấp,1289,227.62,1.16,234.64,126.63,22.72

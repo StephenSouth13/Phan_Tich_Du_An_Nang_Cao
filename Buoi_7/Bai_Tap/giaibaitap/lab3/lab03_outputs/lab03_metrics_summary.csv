@@ -1,0 +1,5 @@
+Dataset,Model,Silhouette,Davies-Bouldin,Calinski-Harabasz
+Penguins,K-Means K=3,0.3968,0.7806,177.7926
+Penguins,Agglomerative K=3,0.3954,0.7807,177.3677
+Online Retail RFM,K-Means K=4,0.259,1.2343,1167.7015
+Online Retail RFM,Agglomerative K=4 (sample),0.1777,1.4626,410.3595
